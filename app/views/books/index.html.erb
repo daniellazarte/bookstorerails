@@ -1,0 +1,29 @@
+<% if user_signed_in? %>
+  
+  <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>        
+
+<% else %>
+ <div class="cajalogin">
+	<%= link_to "Logueate con facebook", user_omniauth_authorize_path(:facebook) %>
+</div>
+
+<% end %>
+
+<div class='content'>
+<div class="buscador">
+  <%= form_tag search_books_path  , remote: true do %>
+  <%= text_field_tag "terms" %>	
+  <% end %>
+</div>
+<div class="profile">
+	<% if session[:image] %>
+		<h1>Hey, You Welcome <%= session[:name] %></h1>
+		<%= image_tag session[:image] %> 
+	<% end %>
+</div>
+
+<div id="books">
+<%= render "books" %>
+</div>
+
+</div>

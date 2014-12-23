@@ -1,0 +1,99 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+body{
+	font-family:'Open Sans Condensed', sans-serif;
+
+}
+
+.content{
+	margin: 0 auto;
+	width: 700px;
+	overflow: hidden;
+	margin-top: 10px;
+
+}
+
+.content img{
+	-moz-border-radius: 150px;
+	-webkit-border-radius: 150px;
+	border-radius: 150px;
+	width:60px;
+	
+	
+}
+
+a {
+	width: 80px;
+	height: 50px;
+	background-color:#A9E2F3;
+}
+.contenido {
+	padding-left: 10px;
+
+	background-color: #A9E2F3;
+	width: 700px;
+	height: 220px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+
+
+}
+
+.contenido h1{
+	padding-top:20px;
+	font-size: 45px;
+	color: #00BFFF;
+	font-family:'Open Sans Condensed', sans-serif;
+
+
+}
+
+.contenido h2{
+	font-size: 30px;
+	font-family:'Open Sans Condensed', sans-serif;
+	margin-top: 10px;
+
+}
+.buscador {
+
+
+}
+.buscador h1{
+font-family:'Open Sans Condensed', sans-serif;
+
+}
+
+.buscador input{
+	margin:30px;
+	font-family:'Open Sans Condensed', sans-serif;
+	width: 300px;
+	font-size: 23px;
+	padding-left: 10px;
+	color: #848484;
+}
+
+
+.cajalogin a{
+	font-family:'Open Sans Condensed', sans-serif;
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+	background-color: #08298A;
+	padding: 10px 10px 10px 10px;
+
+}
+
+.profile{
+	font-family:'Open Sans Condensed', sans-serif;
+	background-color:#F5A9BC;
+	padding: 10px 10px 10px 10px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+
+
+}

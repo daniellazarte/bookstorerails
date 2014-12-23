@@ -1,0 +1,10 @@
+CReate Review
+
+<%= simple_form_for [:book, @review] do |f| %>
+<%= f.input :title %>
+<%= f.input :content %>
+<%= f.input :author_name %>
+<%= f.input :written_at %>
+<%= f.input :raiting %>
+<%= f.submit %>
+<% end %>
